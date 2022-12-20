@@ -7,7 +7,7 @@ function count() {
   let result = document.form.textarea.value;
   document.form.textarea.value = eval(result);
 }
-// clear
+// clean
 function clean() {
   document.form.textarea.value = '';
 }
